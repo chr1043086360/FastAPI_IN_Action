@@ -1,0 +1,8 @@
+.fast
+.idea
+.vscode
+__pycache__
+alembic/versions/*
+*.ini
+.env
+alembic.ini
