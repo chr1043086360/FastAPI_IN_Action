@@ -14,7 +14,7 @@ import sqlalchemy
 # def init_db():
 #     # echo=True: 输出sqlalchemy日志
 #     engine = create_engine(
-#         "mysql+pymysql://root:Zhulinxuezhe123!@122.51.107.26:3306/fastapi", echo=False)
+#         f"mysql+pymysql://root:{MYSQL_PASSWORD}@{HOST_IP}:3306/{MYSQL_NAME}", echo=False)
 #     # 创建DBSession类型
 #     SessionLocal = sessionmaker(bind=engine)
 #     return SessionLocal, engine
